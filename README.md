@@ -1,4 +1,4 @@
-# oaksol-assignment-solution
+
 # OCR to MySQL Data Pipeline
 
 ## Overview
