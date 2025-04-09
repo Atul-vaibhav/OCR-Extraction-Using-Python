@@ -11,19 +11,7 @@ This project extracts text from images using OCR (Tesseract), structures the ext
 - MySQL
 - JSON
 
-## Project Structure
-```
-📂 Your-GitHub-Repo
-│── 📄 README.md             # Project documentation with setup instructions
-│── 📄 extract_and_structure.py   # Python script for OCR and JSON structuring
-│── 📄 store_to_mysql.py     # Python script for storing extracted data into MySQL
-│── 📂 data
-│   ├── sample_image.png     # Sample input image
-│   ├── sample_output.json   # Sample extracted JSON output
-│── 📂 sql
-│   ├── schema.sql           # SQL schema for database tables
-│   ├── insert_sample.sql    # Sample SQL insert statements
-```
+
 
 ## Setup Instructions
 ### 1. Install Dependencies
@@ -41,7 +29,7 @@ Install Tesseract OCR and add it to the system PATH:
 ### 2. Run OCR Script
 To extract text and structure it as JSON:
 ```sh
-python extract_and_structure.py
+python extract_and_structure_image.py
 ```
 
 ### 3. Setup MySQL Database
